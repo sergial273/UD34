@@ -1,0 +1,24 @@
+{
+  "name": "ejemplo",
+  "version": "1.0.0",
+  "description": "ejemp0lo de npm en contexto de js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start1": "node ./build/src/Tarea1/main.js",
+    "start2": "node ./build/src/Tarea2/main.js",
+    "start3": "node ./build/src/Tarea3/main.js",
+    "build": "tsc",
+    "dev": "tsc -watch"
+  },
+  "keywords": [
+    "npm",
+    "js"
+  ],
+  "author": "Sergi Alberich",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "typescript": "^5.3.2"
+  }
+}
